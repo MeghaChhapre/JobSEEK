@@ -71,7 +71,7 @@ const Register = () => {
               <div>
                 <input
                   type="text"
-                  placeholder="MeghaAdmin"
+                  placeholder="Enter Name"
                   value={name}
                   onChange={(e) => setName(e.target.value)}
                 />
@@ -107,7 +107,7 @@ const Register = () => {
               <div>
                 <input
                   type="password"
-                  placeholder="Your Password"
+                  placeholder="Enter Password"
                   value={password}
                   onChange={(e) => setPassword(e.target.value)}
                 />
